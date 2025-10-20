@@ -36,3 +36,26 @@ I decided to go for a survival game.
 
 ### Functional Requirements:
 
+**User Interaction:** The user can use keyboard commands and mouse clicks to perform different actions. The WASD keys can be used for movement, the spacebar can be used to jump, the I key can be used to open the player's inventory, and E can be used to collect items. The mouse can be used for moving the camera, left click can be used for attacking an enemy, breaking trees/rocks, and placing an item when in game, or interacting with the menu when at the start screen.
+
+**Core Gameplay Mechanics:** The movement mechanics will be fairly basic, with only walking, running, and jumping features. The game will include mechanics for building structures, destroying trees, and killing animals, which will be the core mechanics of the game. There may be a cooking system. There will be a hunger system in place which will slowly decrease, only replenishable by eating. Once the hunger bar is at 0, the health bar will start to slowly decrease. The health bar can also decrease if attacked by an enemy.
+
+**Scoring System:** The game will award points for performing certain tasks and collecting certain achievements. 100 points will be awarded for crafting for the first time, 25 points will be awarded for every enemy killed, and 10 points for every 10 minutes spent in the game.
+
+### Non-Functional Requirements
+
+**Performance Requirements:** The game should load in no more than 5 seconds, and respond to user inputs instantly without noticeable lag.
+
+**Usability Requirements:** The game will have an in game user interface showing the player's health, hunger, score, and inventory, and have space to show achievements when they are met. The controls should be easy and simple to understand. The game will have a cutscene prior to the actual gameplay explaining core mechanics.
+
+**Compatibility Requirements:** The game must run on Windows and Mac laptops using keyboard and mouse, and may run on consoles with button and joystick controls.
+
+### Consideration of Social & Ethical issues
+
+Equity: the quality of being fair and just, especially in a way that takes account of and seeks to address existing inequalities.  
+Accessibility: the quality of being able to be reached or entered
+
+**Accessibility:** The game will be accessible to the majority of people. The game will utilise subtitles for deaf people when audio tracks are present, and the controls will be easy to understand.
+
+**Privacy And Data Protection:** The game will not collect any data on players. This prevents any data being stolen.
+
