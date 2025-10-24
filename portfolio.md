@@ -59,3 +59,23 @@ Accessibility: the quality of being able to be reached or entered
 
 **Privacy And Data Protection:** The game will not collect any data on players. This prevents any data being stolen.
 
+**Fairness & Representation:** This game will avoid stereotypes & bias. The game is first person, and if it's multiplayer, the player's will be random solid colours, e.g red, green, blue, etc
+
+**Mental & Emotional Well-being:** The game won't be harmful to people's mental or emotional wellbeing. It will avoid distressing content, and the only violence will be attacking mobs, which will be very rare and light-hearted. The blood and all graphics will be cartoony with no distressing attack sounds, but there will be an option to turn off blood for those who are extremely disturbed by it.
+
+**Cultural Sensitivities:** The game will not feature anything that will be culturally insensitive, and will not be able to be misinterpreted.
+
+## Researching & Planning
+
+### PMI Table
+
+| Existing Idea          | Plus                                 | Minus                                         | Implications                                     |
+|------------------------|--------------------------------------|-----------------------------------------------|--------------------------------------------------|
+|[Muck](https://store.steampowered.com/app/1625450/Muck/)|The enemies are good, crafting system is well done, swimming is good|There is no pause button, and is rather difficult|I will use a similar swimming and crafting system, while avoiding making it too difficult and adding a pause button|
+|[Minecraft](https://www.minecraft.net/)|Not too difficult|The game is made up of nothing but cubes|I will make the game with a similar difficulty, but have different shapes, not just cubes|
+|[Rust](https://store.steampowered.com/app/252490/Rust/)|The gameplay and story is similar|Too graphic and violent|I will make the game with a similar storlyine, but with less graphic and more cartoony violence/graphics|
+
+### Flowcharts and Pseudocode
+
+To see how the game will be programmed, I have made flowcharts for all of the functional requirements. Underneath the flowcharts will be the respective pseudocode.
+
