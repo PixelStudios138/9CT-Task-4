@@ -79,3 +79,6 @@ Accessibility: the quality of being able to be reached or entered
 
 To see how the game will be programmed, I have made flowcharts for all of the functional requirements. Underneath the flowcharts will be the respective pseudocode.
 
+![Flowchart describing the process of the code used in the assessment task](/Images/UIChart.png "Flowchart of User Interaction")  
+
+![Flowchart describing the process of the code used in the assessment task](/flowcharts/DJScoreChart.png "Flowchart of Score & Health Systems")  
