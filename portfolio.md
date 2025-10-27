@@ -81,4 +81,71 @@ To see how the game will be programmed, I have made flowcharts for all of the fu
 
 ![Flowchart describing the process of the code used in the assessment task](/Images/UIChart.png "Flowchart of User Interaction")  
 
-![Flowchart describing the process of the code used in the assessment task](/flowcharts/DJScoreChart.png "Flowchart of Score & Health Systems")  
+![Flowchart describing the process of the code used in the assessment task](/Images/DJScoreChart.png "Flowchart of Score & Health Systems")  
+
+Below is the pseudocode for the User Interaction flowcharts:
+
+```
+BEGIN User Interaction
+IF userInput == "W"
+  movePlayerForward()
+ELSEIF userInput == "S"
+  movePlayerBackward()
+ELSEIF userInput == "A"
+  movePlayerLeft()
+ELSEIF userInput == "D"
+  movePlayerRight()
+ELSEIF userInput == "Spacebar"
+  IF isOnGround
+    makePlayerJump()
+  ENDIF
+ELSEIF userInput == "I"
+  IF inventoryIsOpen
+    closePlayerInventory()
+  ELSE
+    openPlayerInventory()
+  ENDIF
+ELSEIF userInput == "E"
+  collectItem()
+ELSEIF userInput == "Left Click"
+  IF isAttackingEnemy
+    attackEnemy()
+  ELSEIF isBreakingTree
+    breakTree()
+  ELSEIF isInGame
+    placeItem()
+  ELSE
+    interactWithMenu()
+  ENDIF
+ENDIF
+END User Interaction
+```
+
+And here is the pseudocode for the Systems flowchart
+
+```
+BEGIN Systems
+
+DECLARE score : INT
+DECLARE health : INT
+DECLARE hunger : INT
+score = 0
+health = 100
+hunger = 10
+IF hasKilledEnemy
+  score += 10
+ELSEIF hasEaten
+  hunger += 1
+ELSEIF timeSinceLastEaten == 60
+  hunger -= 1
+  IF hunger == 0
+    IF timeSinceNoHunger == 20:
+      health -= 3
+    ENDIF
+  ENDIF
+ELSEIF timeSinceNoHunger == 20:
+  health -= 3
+ENDIF
+
+END Systems
+```
