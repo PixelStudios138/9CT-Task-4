@@ -30,7 +30,7 @@ I decided to go for a survival game.
 
 **Outputs:** The game will display the player's score, any objects that are collected (when they have been collected), the inventory (when opened), the player's health & hunger; and it will play a music track in the background.
 
-**Transmission**: The game may include a multiplayer option, where it will transmit other player's position and currently equipped item
+**Transmission**: The game will include a multiplayer option, where it will transmit other player's position and currently equipped item
 
 **Storage**: The game may save the player's progress, such as position, any items built, and potentially user settings
 
@@ -59,7 +59,7 @@ Accessibility: the quality of being able to be reached or entered
 
 **Privacy And Data Protection:** The game will not collect any data on players. This prevents any data being stolen.
 
-**Fairness & Representation:** This game will avoid stereotypes & bias. The game is first person, and if it's multiplayer, the player's will be random solid colours, e.g red, green, blue, etc
+**Fairness & Representation:** This game will avoid stereotypes & bias. The game is first person, and the player's will be random solid colours, e.g red, green, blue, etc
 
 **Mental & Emotional Well-being:** The game won't be harmful to people's mental or emotional wellbeing. It will avoid distressing content, and the only violence will be attacking mobs, which will be very rare and light-hearted. The blood and all graphics will be cartoony with no distressing attack sounds, but there will be an option to turn off blood for those who are extremely disturbed by it.
 
@@ -149,3 +149,4 @@ ENDIF
 
 END Systems
 ```
+
