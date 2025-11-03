@@ -30,7 +30,7 @@ I decided to go for a survival game.
 
 **Outputs:** The game will display the player's score, any objects that are collected (when they have been collected), the inventory (when opened), the player's health & hunger; and it will play a music track in the background.
 
-**Transmission**: The game may include a multiplayer option, where it will transmit other player's position and currently equipped item
+**Transmission**: The game will include a multiplayer option, where it will transmit other player's position and currently equipped item
 
 **Storage**: The game may save the player's progress, such as position, any items built, and potentially user settings
 
@@ -59,7 +59,7 @@ Accessibility: the quality of being able to be reached or entered
 
 **Privacy And Data Protection:** The game will not collect any data on players. This prevents any data being stolen.
 
-**Fairness & Representation:** This game will avoid stereotypes & bias. The game is first person, and if it's multiplayer, the player's will be random solid colours, e.g red, green, blue, etc
+**Fairness & Representation:** This game will avoid stereotypes & bias. The game is first person, and the player's will be random solid colours, e.g red, green, blue, etc
 
 **Mental & Emotional Well-being:** The game won't be harmful to people's mental or emotional wellbeing. It will avoid distressing content, and the only violence will be attacking mobs, which will be very rare and light-hearted. The blood and all graphics will be cartoony with no distressing attack sounds, but there will be an option to turn off blood for those who are extremely disturbed by it.
 
@@ -78,4 +78,75 @@ Accessibility: the quality of being able to be reached or entered
 ### Flowcharts and Pseudocode
 
 To see how the game will be programmed, I have made flowcharts for all of the functional requirements. Underneath the flowcharts will be the respective pseudocode.
+
+![Flowchart describing the process of the code used in the assessment task](/Images/UIChart.png "Flowchart of User Interaction")  
+
+![Flowchart describing the process of the code used in the assessment task](/Images/DJScoreChart.png "Flowchart of Score & Health Systems")  
+
+Below is the pseudocode for the User Interaction flowcharts:
+
+```
+BEGIN User Interaction
+IF userInput == "W"
+  movePlayerForward()
+ELSEIF userInput == "S"
+  movePlayerBackward()
+ELSEIF userInput == "A"
+  movePlayerLeft()
+ELSEIF userInput == "D"
+  movePlayerRight()
+ELSEIF userInput == "Spacebar"
+  IF isOnGround
+    makePlayerJump()
+  ENDIF
+ELSEIF userInput == "I"
+  IF inventoryIsOpen
+    closePlayerInventory()
+  ELSE
+    openPlayerInventory()
+  ENDIF
+ELSEIF userInput == "E"
+  collectItem()
+ELSEIF userInput == "Left Click"
+  IF isAttackingEnemy
+    attackEnemy()
+  ELSEIF isBreakingTree
+    breakTree()
+  ELSEIF isInGame
+    placeItem()
+  ELSE
+    interactWithMenu()
+  ENDIF
+ENDIF
+END User Interaction
+```
+
+And here is the pseudocode for the Systems flowchart
+
+```
+BEGIN Systems
+
+DECLARE score : INT
+DECLARE health : INT
+DECLARE hunger : INT
+score = 0
+health = 100
+hunger = 10
+IF hasKilledEnemy
+  score += 10
+ELSEIF hasEaten
+  hunger += 1
+ELSEIF timeSinceLastEaten == 60
+  hunger -= 1
+  IF hunger == 0
+    IF timeSinceNoHunger == 20:
+      health -= 3
+    ENDIF
+  ENDIF
+ELSEIF timeSinceNoHunger == 20:
+  health -= 3
+ENDIF
+
+END Systems
+```
 
