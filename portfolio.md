@@ -150,3 +150,21 @@ ENDIF
 END Systems
 ```
 
+### Storyboards
+
+Here are the storyboards for the whole game, one for the in-game scene, and one for the title screen
+
+![Storyboard describing the main process of the code used in the whole game](/Images/WholeGameStoryboard.png "Storyboard of Whole Game")  
+![Storyboard describing the main process of the code used in the game scene](/Images/InGameStoryboard.png "Storyboard of In-Game Scene")  
+![Storyboard describing the main process of the code used in the title screen](/Images/TitleScreenStoryboard.png "Storyboard of Title Screen")  
+
+### Gantt Chart
+
+Below is the gantt chart of the entirety of Part B of this assessment, along with the creation of the game starting next week:
+
+![Gantt chart explaining the flow of creating the assessment and game](/Images/GanttChart.png "Gantt Chart Of Assessment Task Creation")  
+
+## Conclusion
+
+This markdown file has described everything required in this task, from functional and non functional requirements to pseudocode to the actual code and everything inbetween. I have poured my heart and soul into this (as always), and I hope it pays off. Thank you for your time.
+
